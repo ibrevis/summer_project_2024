@@ -1,1 +1,1 @@
-# summer_project_2024
+Some introductiory codes for Yue Wu's summer project at University of Nottingham
