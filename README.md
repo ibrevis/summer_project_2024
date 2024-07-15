@@ -1,5 +1,13 @@
-Some introductiory codes for Yue Wu's summer project at University of Nottingham
+# Some introductory codes for Yue Wu's summer project at the University of Nottingham
 
-```sh
-conda create --name your_env_name
-```
+
+## Screen commands
+- create a new screen
+  ```sh
+  screen -S sim1
+  ```
+- reattach the screen
+  ```sh
+  screen -r sim1
+  ```
+- check the actives screens
