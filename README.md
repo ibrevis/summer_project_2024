@@ -1,13 +1,24 @@
 # Some introductory codes for Yue Wu's summer project at the University of Nottingham
 
-
+# Server commands
 ## Screen commands
+- Check active screen sessions
+  ```sh
+  screen -ls
+  ```
 - create a new screen
   ```sh
-  screen -S sim1
+  screen -S session_name
   ```
-- reattach the screen
+- detach the screen session (within the session)
   ```sh
-  screen -r sim1
+  ctrl + a + d
   ```
-- check the actives screens
+- detach the screen session (from outside the session)
+  ```sh
+  screen -XS session_name detach
+  ```
+- reattach the screen session
+  ```sh
+  screen -r session_name
+  ```
